@@ -1,5 +1,5 @@
 /*
- * Globals Coucou
+ * Globals
  */
 
 /* Links */
@@ -25,14 +25,9 @@ a:hover {
  */
 
 html,
-
 body {
   height: 100%;
   background-color: #333;
-  background-position:center;
-  background-repeat:no-repeat;
-  background-width: 200%;
-  background-size: cover;
 }
 body {
   color: #fff;
@@ -60,7 +55,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  vertical-align: middle;
+  padding: 30px;
 }
 
 
@@ -76,18 +71,16 @@ body {
   display: inline-block;
 }
 .masthead-nav > li + li {
-  margin-left: 30px;
-   
+  margin-left: 20px;
 }
 .masthead-nav > li > a {
-  padding-right: 500;
-  padding-left: 500;
-  font-size: 20px;
-  font-family: verdana;
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  
-  
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -107,7 +100,7 @@ body {
     float: left;
   }
   .masthead-nav {
-  
+    float: right;
   }
 }
 
@@ -115,29 +108,24 @@ body {
 /*
  * Cover
  */
-.innercover {
-border-width:50px;
-border-radius:50px;
-border-color: #fff; /* IE8 proofing */
-border-color: rgba(255,255,255,.75);
-margin:auto;
-}
+
 .cover {
-  font-family: verdana;
-  
+  padding: 0 20px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
-  font-size: 150px;
-border-width:50px;
-border-radius:50px;
-border-color: #fff;
-
-.coverheading 
-
 }
 
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
 
 
 /*
@@ -170,22 +158,6 @@ border-color: #fff;
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%;
+    width: 700px;
   }
 }
-
-.socialnetworks {
-  position: absolute;
-  display: inline;
-  
-}
-
-.facebook {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  bottom:30px;
-  left: 200px;
-
-}
-
