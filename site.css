@@ -73,17 +73,18 @@ body {
 
 .masthead-nav > li {
   display: inline-block;
+
 }
 .masthead-nav > li + li {
   margin-left: 80px;
    
 }
 .masthead-nav > li > a {
-  padding-right: 500;
-  padding-left: 500;
   font-size: 20px;
-  font-family: verdana;
-  font-weight: bold;
+  font-family: 'Philosopher', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
   color: #fff; /* IE8 proofing */
   
   
@@ -120,7 +121,8 @@ margin:auto;
 }
 
 .cover {
-  font-family: verdana;
+  font-family: 'Philosopher', sans-serif;
+  font-family: 'Open Sans', sans-serif;
    margin-left: 400px;
    margin-right: 400px;
    border-width:4px;
@@ -133,14 +135,7 @@ margin:auto;
   padding: 10px 20px;
   font-weight: bold;
   font-size: 200px;
-
-.coverheading {
-
 }
-
-}
-
-
 
 /*
  * Affix and center
