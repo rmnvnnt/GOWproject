@@ -41,7 +41,7 @@
 
 .masthead-nav > li {
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 180px;
   padding-top: 10px;
 }
 .masthead-nav > li + li {
@@ -53,7 +53,6 @@
   padding-left: 500;
   font-size: 20px;
   font-family: 'Philosopher', sans-serif;
-  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   text-decoration: none;
   color: #fff; 
@@ -140,10 +139,9 @@ div, textarea, input {
     margin-right: 500px;
     top: 125px;
     font-family:'Philosopher', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     width: 35%;
     background-color: #fff;
-    color: #4f6fad;
+    color: #663300;
     bottom: 125px;
 }
 
@@ -154,12 +152,11 @@ div, textarea, input {
     margin-right: 400px;
     top: 60px;
     font-family: 'Philosopher', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     bottom: 20%;
 }
 
 .row.header {
-    padding: 4em 2em  0.5em; 
+    padding: 3em 2em  0.5em; 
     color:#fff;
     
   }
@@ -181,7 +178,7 @@ div, textarea, input {
   padding: 0 0 0.4em 0;
   color: #fff;
   font-weight: bold;
-  border: 3px solid #4f6fad;
+  border: 3px solid #663300;
 
 }
 h3 {
@@ -197,7 +194,7 @@ h3 {
   padding: 0.74em 1.5em;
   margin: 1.5em 0 0;
   color: #fff;
-  background-color:#4f6fad; 
+  background-color:#deb887; 
   border-width: 0 0 0 0;
   border-bottom: 5px solid;
   text-transform: uppercase;
@@ -249,8 +246,10 @@ form {
   label {
     display: block;
     margin: 0 0 0.5em 0;
-    color: #4f6fad;
+    color: white;
+
     font-size: pxtoem(16, 16);
+    font-size: larger;
   }
   input {
     margin: 0 0 0.5em 0;
