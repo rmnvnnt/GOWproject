@@ -28,15 +28,30 @@ html,
 
 body {
   height: 100%;
-  background-color: #333;
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size: cover;
+  background-color: transparent;
+    font-family: 'Philosopher', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: 'Philosopher', sans-serif;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 30%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -73,6 +88,7 @@ body {
 
 .masthead-nav > li {
   display: inline-block;
+  font-family: 'Philosopher', sans-serif;
 
 }
 .masthead-nav > li + li {
@@ -82,8 +98,7 @@ body {
 .masthead-nav > li > a {
   font-size: 20px;
   font-family: 'Philosopher', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
+  font-weight: ;
   text-decoration: none;
   color: #fff; /* IE8 proofing */
   
@@ -122,19 +137,20 @@ margin:auto;
 
 .cover {
   font-family: 'Philosopher', sans-serif;
-  font-family: 'Open Sans', sans-serif;
    margin-left: 400px;
    margin-right: 400px;
    border-width:4px;
  border-style:solid;
  border-color:#fff;
+ font-size: 20px;
+
+
 }
 
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
-  font-size: 200px;
+  font-size: 500px;
 }
 
 /*
@@ -144,7 +160,7 @@ margin:auto;
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    position: absolute;
     top: 0;
   }
   .mastfoot {
@@ -168,8 +184,8 @@ margin:auto;
 
 
 .facebook {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   bottom:30px;
   left: 200px;
