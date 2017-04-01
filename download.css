@@ -1,0 +1,107 @@
+
+body {
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+/*
+ * Header
+ */
+ .inner {
+  vertical-align: middle;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px
+
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+.masthead-nav > li + li {
+  margin-left: 80px;
+   
+}
+.masthead-nav > li > a {
+  padding-right: 500;
+  padding-left: 500;
+  font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff; 
+  }
+
+@media (min-width: 768px) {
+
+  .masthead {
+    position: relative;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+
+  /* IE8 proofing */
+  
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+  
+  }
+}
+
+.mobile {
+        position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 100px;
+    font-family: 'Philosopher', sans-serif;
+    background-color: transparent;
+    color: white;
+    bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+
+
+}
+

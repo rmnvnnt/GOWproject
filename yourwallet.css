@@ -1,0 +1,268 @@
+html {
+	margin: 0;
+	padding: 0;
+	background: url(https://cdn.pixabay.com/photo/2015/09/09/20/50/glass-933263__340.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+
+* {
+	color: white;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  margin-left : 100px;
+}
+.masthead-nav> li + li {
+  margin-left: 100px;
+
+}
+.masthead-nav> li > a {
+  padding-right: 500;
+  padding-left: 500;
+  font-size: 20px;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff; /* IE8 proofing */
+
+
+}
+.masthead-nav,
+.choices > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus;
+.choices > .active > a {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-bottom: 40px;
+}
+
+#five {
+	font-size: 32px;
+	margin-right: 250px;
+	
+	position: absolute;
+    margin-left: 90px;
+    margin-right:500px;
+  }
+
+
+#blocgauche {
+	width: 625px;
+	height: 500px;
+	float: left;
+	font-size: 25px;
+
+}
+
+form {
+  max-width: 75%;
+  margin-top: 30px;
+  display: block;}
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+    li {
+      margin: 0 0 0.25em 0; 
+      clear: both;
+      display: inline-block;
+      width: 100%;
+      &:last-child {
+          margin: 0;    
+        }
+        p {
+          margin: 0;
+          padding: 0;
+          float: left;
+          &.right {
+            float: right;
+          }
+        }     
+        .divider {
+          margin: 0.5em 0 0.5em 0;
+          border: 0;
+          height: 1px;
+          width: 100%;
+          display: block;
+          background-color: #4f6fad;
+          background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
+        }
+        .req {
+          color: #ee9cb4; 
+        }
+    }
+  }
+form {
+  max-width: 100%;
+  display: block;
+  text-align :left;
+}
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+
+    li {
+      margin: 0 0 0.25em 0; 
+      clear: both;
+      display: inline-block;
+      width: 100%;
+      &:last-child {
+          margin: 0;    
+        }
+        p {
+          margin: 0;
+          padding: 0;
+          float: left;
+          &.right {
+            float: right;
+          }
+        }     
+        .divider {
+          margin: 0.5em 0 0.5em 0;
+          border: 0;
+          height: 1px;
+          width: 100%;
+          display: block;
+          background-color: #4f6fad;
+          background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
+        }
+        .req {
+          color: #ee9cb4; 
+        }
+    }
+  }
+  label {
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: white;
+
+    font-size: pxtoem(16, 16);
+    font-size: larger;
+  }
+  input {
+    margin: 0 0 0.5em 0;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    color: #555;
+    font-size: pxtoem(16, 16);
+  }
+  textarea {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    width: 100%;
+    color: #555;
+  }
+  small {
+    color: #fff;
+    margin: 0 0 0 0.5em;
+  }
+}
+
+// Media Queries
+
+@media only screen and (max-width:480px) {
+  .pull-right {
+    float: none; 
+  }
+  input {
+    width: 100%; 
+  }
+  label {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    clear: both;
+  }
+  li, p {
+   width: 100%; 
+  }
+  input.btn {
+   margin: 1.5em 0 0.5em; 
+  }
+ 
+  }
+  li small {
+   display: none; 
+  }
+}
+#blocdroit {
+	width: 625px;
+	height: 500px;
+	float: right;
+}
+
+#one {
+	height: 50px;
+	width: 350px;
+	margin-top: 60px;
+}
+
+#two {
+	height: 50px;
+	width: 350px;
+}
+
+#three {
+	height: 50px;
+	width: 350px;
+}
+
+#four {
+	height: 50px;
+	width: 350px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+
+#six {
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#seven {
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#eight {
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}

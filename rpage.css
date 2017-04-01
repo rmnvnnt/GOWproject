@@ -1,8 +1,17 @@
 body {
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: grey;
+  max-width: 200%;
+  max-height: 200%;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 h1 {
@@ -10,29 +19,28 @@ h1 {
   padding-top: 400px;
   color: #fff;
   text-decoration: bold;
-  font-family: 'Philosopher', sans-serif;
+  font-family: verdana;
 }
 .masthead-brand {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .masthead-nav > li {
   display: inline-block;
-  font-family: 'Philosopher', sans-serif;
+  margin-left : +70px;
+}
+.masthead-nav> li + li {
+  margin-left: 100px;
 
 }
-.masthead-nav > li + li {
-  margin-left: 11%;
-   
-}
-.masthead-nav > li > a {
+.masthead-nav> li > a {
+  padding-right: 500;
+  padding-left: 500;
   font-size: 20px;
-  font-family: 'Philosopher', sans-serif;
-  font-weight: ;
-  text-decoration: none;
+  font-family: verdana;
+  font-weight: bold;
   color: #fff; /* IE8 proofing */
-/* IE8 proofing */
 
 
 }
@@ -58,21 +66,19 @@ h1 {
     padding: 16px;
     width: 200px;
     font-size: 16px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: verdana;
     border: solid;
     border-color: white;
     cursor: pointer;
-    font-weight: normal;
 }
 .simple-button {
   background-color: transparent;
   color: white;
-  padding: 2%;
-  width: 20%;
+  padding: 16px;
+  width: 200px;
   font-size: 16px;
-  font-family: 'Philosopher', sans-serif;
+  font-family: verdana;
   border: solid;
-  font-weight: normal;
   border-color: white;
 }
 /* Dropdown button on hover & focus */
@@ -174,11 +180,10 @@ h1 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-family: 'Philosopher', sans-serif;
 }
 
 /* Links inside the dropdown */
@@ -190,7 +195,7 @@ h1 {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: transparent;}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
