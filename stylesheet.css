@@ -124,6 +124,8 @@ body {
 div, textarea, input {
   box-sizing(border-box); 
 }  
+
+
 .container {  
   max-width: 510px;
   min-width: 324px;
@@ -133,62 +135,29 @@ div, textarea, input {
   border-bottom: 3px solid #ccc;
 }
 
+#header {
+  font-family:'Philosopher', sans-serif;
+    color:#fff;
+    font-size: 350%;
+    text-align: center;
+}
+
 .us {
     position: absolute;
-    margin-left: 90px;
-    margin-right: 500px;
+padding-left: 250px;
+padding-top: 95px;
     top: 125px;
     font-family:'Philosopher', sans-serif;
     width: 35%;
-    background-color: #fff;
-    color: #663300;
+    
     bottom: 125px;
 }
 
-#title {
-  font-size: 200%;
-  text-align: center;
-  padding-top: 10%;
-}
+.hleft {
+    color:#fff;
+    padding-bottom: 15px;
+  }
 
-#corps {
-  font-size: 95%;
-  text-align: justify;
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-top: 6%;
-}
-
-#subtitle {
-  font-size: 100%;
-  padding-left: 13%;
-  font-weight: bold;
-  padding-top: 7%;
-}
-
-#Fadwa {
-  font-size: 76%;
-  padding-left: 8.5%;
-  padding-right: 7%;
-  padding-top: 2%;
-  text-align: justify;
-}
-
-#Romain {
-  font-size: 76%;
-  padding-left: 8.5%;
-  padding-right: 7%;
-  padding-top: 2%;
-  text-align: justify;
-}
-
-#Arthur {
-  font-size: 76%;
-  padding-left: 8.5%;
-  padding-right: 7%;
-  padding-top: 2%;
-  text-align: justify;
-}
 
 .row {
       width: 30%;
@@ -201,10 +170,8 @@ div, textarea, input {
 }
 
 .row.header {
-    padding: 3em 2em  0.5em; 
+    padding: 0.5em 2em  0.5em; 
     color:#fff;
-    padding-top: 8.5%;
-    
   }
 
 .row.body {
