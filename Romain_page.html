@@ -1,12 +1,8 @@
-
 <!DOCTYPE html>
 <html>
  <link  type="text/css" rel="stylesheet" href="rsite.css">
  <script type="text/javascript" src="functions.js"></script>
 <head>
-<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page des choix</title>
   <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <style>
@@ -19,47 +15,43 @@
 
 <body background="http://www.walldevil.com/wallpapers/a77/background-retina-macbook-beautiful-backgrounds-images.jpg">
 
-
-   <div class="site-wrapper">
-   <div class="site-wrapper-inner">
-      <div class="cover-container">
-              <div class="masthead clearfix">
-                 <div class="inner">
-                 <nav>
-                   <ul class="nav masthead-nav">
-                   <li class="active"><a href="site.html">Home</a></li>
-                     <li><a href="yourwallet.html">Your wallet</a></li>
-                    <li><a href="Romain_page.html">How it works</a></li>
+  <div class="head">
+              <div class="inner">
+                <nav>
+                  <ul class="nav masthead-nav">
+                    <li class="active"><a href="site.html">Home</a></li>
+                     <li><a href="#">Your wallet</a></li>
+                    <li><a href="#">How it works</a></li>
                     <li><a href="download.html">Download you G.O.W app : iOS/Android</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                   </ul>
+                  </ul>
                 </nav>
-                </div>
-             </div>    
+              </div>
+   </div>
 
    <div class="dropdown" id="btn-1">
      <button onclick="myFunction1()" class="dropbtn">Cinema</button>
-     <div id="myDropdown-1" class="dropdown-content" onclick="click()">
-       <a href="Results_page.html" id="film">The Lost City of Z</a>
-       <a href="Results_F2.html" id="film">Brimstone</a>
-       <a href="Results_F3.html" id="film">Logan</a>
+     <div id="myDropdown-1" class="dropdown-content" onclick="options()">
+       <a href="Results_page.html?movie=TheLost" class="TLC">The Lost City of Z</a>
+       <a href="Results_page.html?movie=Brimstone">Brimstone</a>
+       <a href="Results_page.html?movie=Logan">Logan</a>
      </div>
    </div>
 
    <div class="dropdown" id="btn-2">
      <button onclick="myFunction2()" class="dropbtn">Theatre</button>
      <div id="myDropdown-2" class="dropdown-content">
-       <a href="results_T1.html">Comedy</a>
-       <a href="results_T2.html">Drama</a>
-       <a href="results_T3.html">One man show</a>
+       <a href="Results_page.html?movie=Antigone">Drame</a>
+       <a href="Results_page.html?movie=Misanthrope">Comédie</a>
+       <a href="Results_page.html?movie=Foresti">One-man Show</a>
      </div>
    </div>
 
    <div class="dropdown" id="btn-3">
-     <button onclick="myFunction3()" class="dropbtn" id="amusementbtn">Amusement Park</button>
+     <button onclick="myFunction3()" class="dropbtn" id="amusementbtn">Parc d'attractions</button>
      <div id="myDropdown-3" class="dropdown-content">
-       <a href="results_A1.html">Disneyland</a>
-       <a href="results_A2.html">Park Astérix</a>
+       <a href="Results_page.html?movie=Astérix">Park Astérix</a>
+       <a href="Results_page.html?movie=Disneyland">DisneyLand</a>
      </div>
    </div>
 
@@ -68,7 +60,7 @@
 <h1>What are you up to?</h1>
 <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
