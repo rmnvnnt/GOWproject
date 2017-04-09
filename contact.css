@@ -34,51 +34,48 @@
 }
 
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px
-
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .masthead-nav > li {
-  display: inline-block;
-  margin-left: 180px;
-  padding-top: 10px;
+ display: inline-block;
+  margin-left: 5%;
+  padding-top: 0.8%;
+
 }
 .masthead-nav > li + li {
-  margin-left: 80px;
+  margin-left: 10%;
    
 }
 .masthead-nav > li > a {
-  padding-right: 500;
-  padding-left: 500;
-  font-size: 20px;
+  font-size: 130%;
   font-family: 'Philosopher', sans-serif;
-  font-weight: normal;
+  font-weight: normal; ;
   text-decoration: none;
-  color: #fff; 
-  }
+  color: #fff; /* IE8 proofing */
+  
+  
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
 
-@media (min-width: 768px) {
-
-  .masthead {
-    position: relative;
-    top: 0;
+@media (min-width: 20px) {
+  .masthead-brand {
+    float: none;
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%;
+  .masthead-nav {
+  
   }
 }
 
@@ -124,25 +121,19 @@ body {
 div, textarea, input {
   box-sizing(border-box); 
 }  
-.container {  
-  max-width: 510px;
-  min-width: 324px;
-  margin: 50px auto 0px;
-  background-color: #fff;
-  border: 1px solid lighten(#ccc, 1%); 
-  border-bottom: 3px solid #ccc;
-}
+
 
 .us {
     position: absolute;
-    margin-left: 90px;
-    margin-right: 500px;
-    top: 125px;
+    margin-left: 10%;
+    margin-right: 50%;
+    top: 18%;
     font-family:'Philosopher', sans-serif;
     width: 35%;
     background-color: #fff;
     color: #663300;
-    bottom: 125px;
+    padding-bottom: 2%;
+ 
 }
 
 #title {
@@ -194,8 +185,8 @@ div, textarea, input {
       width: 30%;
     position: static;
     margin-left: 55%;
-    margin-right: 400px;
-    top: 60px;
+    margin-right: 20%;
+    top: 10%;
     font-family: 'Philosopher', sans-serif;
     bottom: 20%;
 }
@@ -203,7 +194,7 @@ div, textarea, input {
 .row.header {
     padding: 3em 2em  0.5em; 
     color:#fff;
-    padding-top: 8.5%;
+    padding-top: 3.5%;
     
   }
 

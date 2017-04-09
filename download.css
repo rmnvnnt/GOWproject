@@ -6,29 +6,35 @@ body {
 /*
  * Header
  */
- .inner {
+/* Padding for spacing */
+.inner {
   vertical-align: middle;
 }
 
+
+/*
+ * Header
+ */
+
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px
+  margin-top: 20%;
+
 
 }
 
 .masthead-nav > li {
   display: inline-block;
-  margin-left: 100px;
-  padding-top: 10px;
+  margin-left: 2%;
+  padding-top: 0.2%;
 }
 .masthead-nav > li + li {
-  margin-left: 80px;
+  margin-left: 10%;
    
 }
 .masthead-nav > li > a {
   padding-right: 500;
   padding-left: 500;
-  font-size: 20px;
+  font-size: 130%;
   font-family: 'Philosopher', sans-serif;
   font-weight: normal;
   text-decoration: none;
@@ -60,6 +66,8 @@ body {
 }
 
 
+
+
   /* IE8 proofing */
   
 }
@@ -89,16 +97,17 @@ body {
         position: absolute;
     margin-left: 25%;
     margin-right: 25%;
-    top: 100px;
+    top: 100%;
     font-family: 'Philosopher', sans-serif;
     background-color: transparent;
     color: white;
-    bottom: 50px;
-    padding: 20px;
+    bottom: 30%;
+    padding: 4%;
     text-align: center;
     position: relative;
-    font-size: 20px;
+    font-size: 120%;
     font-style: normal;
+    font-weight: normal;
     
 }
 

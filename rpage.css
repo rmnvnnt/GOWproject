@@ -20,32 +20,30 @@ h1 {
   color: #fff;
   text-decoration: bold;
   font-family: verdana;
-}
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .masthead-nav > li {
   display: inline-block;
-  margin-left : +70px;
-}
-.masthead-nav> li + li {
-  margin-left: 100px;
+  font-family: 'Philosopher', sans-serif;
 
 }
-.masthead-nav> li > a {
-  padding-right: 500;
-  padding-left: 500;
-  font-size: 20px;
-  font-family: verdana;
-  font-weight: bold;
+.masthead-nav > li + li {
+  margin-left: 10%;
+   
+}
+.masthead-nav > li > a {
+  font-size: 130%;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
   color: #fff; /* IE8 proofing */
-
-
+  
+  
 }
-.masthead-nav,
-.choices > li > a:hover,
+.masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
@@ -53,19 +51,26 @@ h1 {
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus;
-.choices > .active > a {
+.masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
 }
 
+@media (min-width: 20px) {
+  .masthead-brand {
+    float: none;
+  }
+  .masthead-nav {
+  
+  }
+}
 /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
     color: white;
-    padding: 16px;
-    width: 200px;
-    font-size: 16px;
+    padding: 2%;
+    width: 12%;
+    font-size: 120%;
     font-family: verdana;
     border: solid;
     border-color: white;
@@ -74,9 +79,9 @@ h1 {
 .simple-button {
   background-color: transparent;
   color: white;
-  padding: 16px;
-  width: 200px;
-  font-size: 16px;
+  padding: 2%;
+  width: 12%;
+  font-size: 120%;
   font-family: verdana;
   border: solid;
   border-color: white;
@@ -90,7 +95,7 @@ h1 {
 /* The container <div> - needed to position the dropdown content */
 #btn-1 {
   left: 10%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -98,7 +103,7 @@ h1 {
 
 #btn-2 {
   left: 42%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -106,7 +111,7 @@ h1 {
 
 #btn-3 {
   right: 10%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -114,7 +119,7 @@ h1 {
 
 #btn-a {
   left: 0%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -122,7 +127,7 @@ h1 {
 
 #btn-b {
   left: 20%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -130,7 +135,7 @@ h1 {
 
 #btn-c {
   left: 40%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -138,7 +143,7 @@ h1 {
 
 #btn-d {
   left: 60%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -146,7 +151,7 @@ h1 {
 
 #btn-e {
   left: 80%;
-  margin-top: -100px;
+  margin-top: 25%;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -181,7 +186,7 @@ h1 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 20%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -202,13 +207,13 @@ h1 {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 50%) {
   .masthead-brand {
     float: left;
 
   }
 
-@media (min-width: 768px) {
+@media (min-width: 50%) {
   /* Pull out the header and footer */
   .head {
     position: relative;
@@ -218,4 +223,5 @@ h1 {
     position: fixed;
     bottom: 0;
 }
+
 /end
